@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Updates to this file can be found at https://github.com/Rick-UpperPark/UpperParkFree/tree/master/ClarionIDE/Misc/SyntaxHighlighting
+    Created by Rick Martin
+    Updated 2013-May-31 by Mark Goldberg
+-->
+<SyntaxDefinition name="CW Included Projects" extensions=".pr;.prj">
+	<Environment>
+		<Custom name="Label" bold="true" italic="false" color="Red" />
+		<Custom name="OmittedCode" bold="false" italic="false" color="Black" bgcolor="WhiteSmoke" />
+		<Custom name="GeneratedCode" bold="false" italic="false" color="Black" bgcolor="#E9E9E9" />
+		<Default bold="false" italic="false" color="Black" bgcolor="#E4F4FF" />
+		<Selection bold="false" italic="false" color="White" bgcolor="#316AC5" />
+		<VRuler bold="false" italic="false" color="#F1EFE2" bgcolor="#D9D2AE" />
+		<InvalidLines bold="false" italic="false" color="Red" />
+		<CaretMarker bold="false" italic="false" color="#FFFF99" />
+		<LineNumbers bold="false" italic="false" color="Black" bgcolor="WhiteSmoke" />
+		<FoldLine bold="false" italic="false" color="Gray" bgcolor="Black" />
+		<FoldMarker bold="false" italic="false" color="Gray" bgcolor="White" />
+		<SelectedFoldLine bold="false" italic="false" color="Black" />
+		<EOLMarkers bold="false" italic="false" color="#F1EFE2" bgcolor="#D9D2AE" />
+		<SpaceMarkers bold="false" italic="false" color="#F1EFE2" bgcolor="#D9D2AE" />
+		<TabMarkers bold="false" italic="false" color="#F1EFE2" bgcolor="#D9D2AE" />
+	</Environment>
+	<Properties>
+		<Property name="LineComment" value="--" />
+	</Properties>
+	<Digits name="Digits" bold="true" italic="false" color="Orchid" />
+	<RuleSets>
+		<RuleSet ignorecase="false">                                                   
+            <Delimiters>&amp;&lt;&gt;~!@%^*()-+=|\#/{}[]:;"' ,	.?</Delimiters>
+			<Span name="LineComment" stopateol="true" bold="false" italic="true" color="SlateGray">
+			    <Begin>--</Begin>				
+			</Span>
+			<Span name="StringOrChar" stopateol="true" bold="true" italic="false" color="Maroon">
+				<Begin>"</Begin>
+				<End>"</End>
+			</Span> 
+			<MarkPrevious bold="true" italic="false" color="Yellow">(</MarkPrevious> 						
+			<KeyWords name="AssignOn" bold="false" italic="false" color="Teal">
+			    <Key word="on" />
+			    <Key word="1" />
+			</KeyWords>
+			<KeyWords name="AssignOff" bold="false" italic="false" color="Crimson">
+			    <Key word="off" />
+			    <Key word="0" />
+			</KeyWords> 
+			<KeyWords name="Punctuation" bold="false" italic="false" color="DarkGreen">
+				<Key word="?" />
+				<Key word="," />
+				<Key word="." />
+				<Key word=";" />
+				<Key word=":" />
+				<Key word="(" />
+				<Key word=")" />
+				<Key word="[" />
+				<Key word="]" />
+				<Key word="{" />
+				<Key word="}" />
+				<Key word="+" />
+				<Key word="-" />
+				<Key word="/" />
+				<Key word="%" />
+				<Key word="*" />
+				<Key word="&lt;" />
+				<Key word="&gt;" />
+				<Key word="^" />
+				<Key word="=" />
+				<Key word="~" />
+				<Key word="!" />
+				<Key word="|" />
+				<Key word="&amp;" />
+			</KeyWords>
+			<KeyWords name="LogicOperators" bold="true" italic="false" color="Blue">
+				<Key word="and" />   
+				<Key word="or" />    
+				<Key word="exists" />
+				<Key word="older" /> 
+				<Key word="not" />   
+			</KeyWords>    
+			<KeyWords name="ControlKeywords" bold="false" italic="false" color="DarkOrchid">
+				<Key word="pragma" />
+			</KeyWords>  			
+			<KeyWords name="CompileLinkKeywords" bold="true" italic="false" color="SteelBlue">
+				<Key word="system" />
+				<Key word="model" />
+				<Key word="compile" />
+				<Key word="link" />
+				<Key word="autocompile" />
+				<Key word="ignore" />   
+				<Key word="implib" />   
+				<Key word="define" />
+			</KeyWords>
+			<KeyWords name="FlowControlKeywords" bold="true" italic="false" color="DarkOrange">
+				<Key word="if" />    
+				<Key word="then" />    
+				<Key word="elsif" /> 
+				<Key word="else" />  
+				<Key word="endif" /> 
+				<Key word="abort" /> 
+				<Key word="error" /> 
+			</KeyWords>
+			<KeyWords name="UserInterfaceKeywords" bold="true" italic="false" color="Blue">
+				<Key word="message" />
+				<Key word="prompt" />
+			</KeyWords>
+			<KeyWords name="MiscKeyWords" bold="true" italic="false" color="SteelBlue">
+				<Key word="file" />         
+				<Key word="run" />          
+				<Key word="include" />      
+				<Key word="call" />         
+				<Key word="declare_compiler" />
+				<Key word="rundll" />       
+				<Key word="exemod" />       
+				<Key word="noedit" />   
+				<Key word="set" />   
+			</KeyWords>
+		</RuleSet> 			
+	</RuleSets>
+</SyntaxDefinition>
+
