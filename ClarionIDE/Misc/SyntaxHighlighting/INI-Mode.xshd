@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This file was written by Mark Goldberg -->
+<SyntaxDefinition name="INI" extensions=".ini">
+	<Environment>
+		<Default            bold="false" italic="false" color="Black" bgcolor="#BBBBBB" />
+		<Selection          bold="false" italic="false" color="White"       bgcolor="SaddleBrown" />
+		<VRuler             bold="false" italic="false" color="SeaGreen" />
+		<InvalidLines       bold="false" italic="false" color="Red" />
+		<CaretMarker        bold="false" italic="false" color="LightYellow" />
+		<LineNumbers        bold="false" italic="false" color="Gray"        bgcolor="#CCCCCC" />
+		<FoldLine           bold="false" italic="false" color="Gray"        bgcolor="#CCCCCC" />
+		<FoldMarker         bold="false" italic="false" color="Blue"        bgcolor="#CCCCCC" />
+		<SelectedFoldLine   bold="false" italic="false" color="Green"       bgcolor="#CCCCCC" />
+		<EOLMarkers         bold="false" italic="false" color="#A7A7A7" />
+		<SpaceMarkers       bold="false" italic="false" color="#A7A7A7" />
+		<TabMarkers         bold="false" italic="false" color="#A7A7A7" />
+	</Environment>
+	<Properties>
+		<Property name="LineComment" value=";" />
+	</Properties>
+	<Digits name="Digits" bold="false" italic="false" color="BlueViolet" />
+	<RuleSets>
+		<RuleSet ignorecase="true">			
+			<Delimiters>&amp;&lt;&gt;~!@%^*()-+=|\#/{}[]:;"' ,	.?</Delimiters>
+			
+			<Span name="LineComment"    stopateol="true"   bold="false" italic="true" color="SeaGreen">
+			    <Begin>;</Begin>				
+			</Span>			
+
+			<Span name="Section"    stopateol="true"   bold="true" italic="false" color="Blue">
+			    <Begin>[</Begin>				
+			    <End>]</End>
+			</Span>			
+			
+			<KeyWords name="Assignment"             bold="true" italic="false" color="OrangeRed">
+			  <Key word="=" />			  
+			</KeyWords>
+	
+		</RuleSet>
+
+	</RuleSets>
+</SyntaxDefinition>

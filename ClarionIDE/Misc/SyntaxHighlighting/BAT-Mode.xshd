@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This file was written by Mark Goldberg -->
+<SyntaxDefinition name="BAT" extensions=".bat;.cmd">
+	<Environment>
+		<Default            bold="false" italic="false" color="SaddleBrown" bgcolor="#BBBBBB" />
+		<Selection          bold="false" italic="false" color="White"       bgcolor="SaddleBrown" />
+		<VRuler             bold="false" italic="false" color="SeaGreen" />
+		<InvalidLines       bold="false" italic="false" color="Red" />
+		<CaretMarker        bold="false" italic="false" color="LightYellow" />
+		<LineNumbers        bold="false" italic="false" color="Gray"        bgcolor="#CCCCCC" />
+		<FoldLine           bold="false" italic="false" color="Gray"        bgcolor="#CCCCCC" />
+		<FoldMarker         bold="false" italic="false" color="Blue"        bgcolor="#CCCCCC" />
+		<SelectedFoldLine   bold="false" italic="false" color="Green"       bgcolor="#CCCCCC" />
+		<EOLMarkers         bold="false" italic="false" color="#A7A7A7" />
+		<SpaceMarkers       bold="false" italic="false" color="#A7A7A7" />
+		<TabMarkers         bold="false" italic="false" color="#A7A7A7" />
+	</Environment>
+	<Properties>
+		<Property name="LineComment" value="::" />
+	</Properties>
+	<Digits name="Digits" bold="false" italic="false" color="DarkGreen" />
+	<RuleSets>
+		<RuleSet ignorecase="true">			
+			<Delimiters>&amp;&lt;&gt;~!@%^*()-+=|\#/{}[]:;"' ,	.?</Delimiters>
+			
+			<Span name="LineComment"    stopateol="true"   bold="false" italic="true" color="SeaGreen">
+			    <Begin>::</Begin>				
+			</Span>			
+			<Span name="LineCommentRem" stopateol="true"   bold="false" italic="true" color="SeaGreen">
+			    <Begin>REM</Begin>
+			</Span>			
+    <!--  
+            <Span name="Output" stopateol="true"   bold="false" italic="true" color="Purple">
+			    <Begin>echo</Begin>				
+			</Span>
+	-->
+			
+			<KeyWords name="MajorLogicFlow"             bold="true" italic="false" color="Tomato">
+			  <Key word="goto" />
+			  <Key word="exit" />
+			</KeyWords>
+			
+			<KeyWords name="MinorLogicFlow"             bold="true" italic="false" color="Maroon">
+			  <Key word="if" />			  
+			  <Key word="for" />			  
+			</KeyWords>
+			
+			<KeyWords name="UserInterface"              bold="true" italic="false" color="Orchid">
+			  <Key word="echo" />
+			  <Key word="pause" />
+			</KeyWords>
+			
+			<KeyWords name="Common"                     bold="true" italic="false" color="#666666">
+			  <Key word="@" />
+			</KeyWords>
+			
+			<KeyWords name="Variables"                  bold="true" italic="false" color="Chocolate">
+			  <Key word="set" />	
+			  <Key word="=" />
+			  <Key word="%" />			  
+			</KeyWords>
+	
+		</RuleSet>
+
+    	<!--wrong should only be when starts in first column-->
+		
+	<!--	<RuleSet ignorecase="true">		
+			<Delimiters>ABCDEFGHIJKLMNOPQRSTUVWXYZ- 0123456789:</Delimiters>
+			<Span name="GotoLabels" stopateol="true"    bold="true" italic="false" color="Purple">
+				<Begin>:</Begin>	
+				<End> </End>
+			</Span> 		
+		</RuleSet>-->
+	</RuleSets>
+</SyntaxDefinition>
