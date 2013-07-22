@@ -5,7 +5,7 @@
     <Test display="08   08  'BackSpace'" value="&lt;8&gt;" />
     <Test display="09   09  'Tab'" value="&lt;9&gt;" />
     <Test display="10   0A  'LF'" value="&lt;10&gt;" />
-    <Test display="11   0A  'FF'" value="&lt;11&gt;" />
+    <Test display="12   0C  'FF'" value="&lt;12&gt;" />
     <Test display="13   0D  'CR'" value="&lt;13&gt;" />
     <Test display="26   1A  'EOF'" value="&lt;26&gt;" />
     <Test display="27   1B  'ESC'" value="&lt;27&gt;" />
