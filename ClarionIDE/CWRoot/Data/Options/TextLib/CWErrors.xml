@@ -1,0 +1,47 @@
+<TextLibrary name="CW Errors">    
+  <Text display = "  0 - 	                                 		NoError           "  value = "NoError          " />              
+  <Text display = " 02 - File Not Found                    		NoFileErr         "  value = "NoFileErr        " />              
+  <Text display = " 03 - Path Not Found                    		NoPathErr         "  value = "NoPathErr        " />              
+  <Text display = " 04 - Too Many Open Files                	TooManyErr        "  value = "TooManyErr       " />              
+  <Text display = " 05 - Access Denied                     		NoAccessErr       "  value = "NoAccessErr      " />              
+  <Text display = " 07 - Memory Corrupted                   	BadMemErr         "  value = "BadMemErr        " />              
+  <Text display = " 08 - Insufficient Memory               		NoMemErr          "  value = "NoMemErr         " />              
+  <Text display = " 15 - Invalid Drive	                   		BadDriveErr       "  value = "BadDriveErr      " />              
+  <Text display = " 30 - Entry Not Found                   		NoEntryErr        "  value = "NoEntryErr       " />              
+  <Text display = " 32 - File Is Already Locked            		IsLockedErr       "  value = "IsLockedErr      " />              
+  <Text display = " 33 - Record Not Available               	BadRecErr         "  value = "BadRecErr        " />              
+  <Text display = " 35 - Record Not Found                   	NoRecErr          "  value = "NoRecErr         " />              
+  <Text display = " 36 - Invalid Data File                 		BadFileErr        "  value = "BadFileErr       " />              
+  <Text display = " 37 - File Not Open                     		NotOpenErr        "  value = "NotOpenErr       " />              
+  <Text display = " 38 - Invalid Key File                  		InvKeyErr         "  value = "InvKeyErr        " />              
+  <Text display = " 40 - Creates Duplicate Key              	DupKeyErr         "  value = "DupKeyErr        " />              
+  <Text display = " 43 - Record Is Already Held             	IsHeldErr         "  value = "IsHeldErr        " />              
+  <Text display = " 45 - Invalid Filename                  		BadNameErr        "  value = "BadNameErr       " />              
+  <Text display = " 46 - Key Files must be Rebuilt          	BadKeyErr         "  value = "BadKeyErr        " />              
+  <Text display = " 47 - Invalid File Declaration          		InvalidFileErr    "  value = "InvalidFileErr   " />              
+  <Text display = " 48 - Unable to log transaction          	BadTranErr        "  value = "BadTranErr       " />              
+  <Text display = " 52 - File Already Open                 		IsOpenErr         "  value = "IsOpenErr        " />              
+  <Text display = " 54 - No Create Attribute               		NoCreateErr       "  value = "NoCreateErr      " />              
+  <Text display = " 55 - File Must Be Shared               		NoShareErr        "  value = "NoShareErr       " />              
+  <Text display = " 56 - Logout Already Active              	LogActiveErr      "  value = "LogActiveErr     " />              
+  <Text display = " 57 - Invalid Memo File                 		BadMemoErr        "  value = "BadMemoErr       " />              
+  <Text display = " 63 - Exclusive Access Required          	ExclReqErr        "  value = "ExclReqErr       " />              
+  <Text display = " 64 - Sharing Violation                 		ShareVioErr       "  value = "ShareVioErr      " />              
+  <Text display = " 65 - Unable to rollback transaction     	CantRollErr       "  value = "CantRollErr      " />              
+  <Text display = " 73 - Memo File is Missing               	MemoMissing       "  value = "MemoMissing      " />              
+  <Text display = " 75 - Invalid Field Type Descriptor      	TypeDescErr       "  value = "TypeDescErr      " />              
+  <Text display = " 76 - Invalid Index String              		BadIndexErr       "  value = "BadIndexErr      " />              
+  <Text display = " 77 - Unable To Access Index             	IndexAccessErr    "  value = "IndexAccessErr   " />              
+  <Text display = " 78 - Invalid Number Of Parameters       	BadParmErr        "  value = "BadParmErr       " />              
+  <Text display = " 79 - Unsupported Data Type in File      	BadFieldTypeErr   "  value = "BadFieldTypeErr  " />              
+  <Text display = " 80 - Function not supported             	NoDriverSupport   "  value = "NoDriverSupport  " />              
+  <Text display = " 88 - Invalid Key Length                		KeyLengthErr      "  value = "KeyLengthErr     " />              
+  <Text display = " 89 - Record Changed By Another Station  	RecordChangedErr  "  value = "RecordChangedErr " />              
+  <Text display = " 90 - File System Error                 		FileSystemErr     "  value = "FileSystemErr    " />              
+  <Text display = " 91 - No Logout Active                  		NoLogoutErr       "  value = "NoLogoutErr      " />              
+  <Text display = " 92 - BUILD in Progress                 		BuildActiveErr    "  value = "BuildActiveErr   " />              
+  <Text display = " 93 - BUILD Cancelled                   		BuildCancelledErr "  value = "BuildCancelledErr" />              
+  <Text display = " 94 - Record limit exceeded              	RecordLimitErr    "  value = "RecordLimitErr   " />              
+  <Text display = " 97 - Stream Error                      		StreamErr         "  value = "StreamErr        " />              
+  <Text display = "100 - Trigger Error	                     	TriggerErr        "  value = "TriggerErr       " />              
+</TextLibrary>
