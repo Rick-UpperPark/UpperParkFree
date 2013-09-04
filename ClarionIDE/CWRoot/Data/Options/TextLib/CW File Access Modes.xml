@@ -1,0 +1,10 @@
+<TextLibrary name="CW File Access Modes">
+  <Text display = "  0H - ReadOnly	"  value = "ReadOnly" 	/>
+  <Text display = " 01H - WriteOnly	"  value = "WriteOnly" 	/>
+  <Text display = " 02H - ReadWrite	"  value = "ReadWrite" 	/>
+  <Text display = "  0H - AnyAccess	"  value = "AnyAccess" 	/>
+  <Text display = " 10H - DenyAll	"  value = "DenyAll" 	/>
+  <Text display = " 20H - DenyWrite	"  value = "DenyWrite" 	/>
+  <Text display = " 30H - DenyRead	"  value = "DenyRead" 	/>
+  <Text display = " 40H - DenyNone	"  value = "DenyNone"	/>
+</TextLibrary>

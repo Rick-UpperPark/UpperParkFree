@@ -6,3 +6,5 @@ ASCIITable.xml replaces the shipping version. This improves the spacing and alig
 
 CWErrors.xml - adds a tab to the ToolBox pad that holds all the errorcodes() and their equates making it very easy
 to drag the errorcode() equate into your code.
+
+CW File Access Modes.xml - addes Clarion file access mode equates to toolbox (eg. DenyAll, ReadWrite, etc.)
