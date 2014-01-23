@@ -1,3 +1,5 @@
+#This is an example .gitignore file for the Clarion Environment.
+#Copy it to your base Clarion folder (e.g. C:\Clarion8 or C:\Clarion9)
 *.CHW
 clarion.opt
 ClarionNet20.red
