@@ -1,0 +1,14 @@
+#the obj and source entries ignore those subfolders
+obj/
+source/
+#Using *.* Ignores everything and then allows you to explicitly turn on the file types you want to watch using ! as the first character of a the line
+#see http://git-scm.com/docs/gitignore for full details
+*.*
+!.gitignore
+!*.build
+!*.cwproj
+!*.dct
+!*.sln
+!*.apv
+!up_vcsettings.ini
+!CA_Roots.pem
