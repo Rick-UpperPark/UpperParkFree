@@ -1,0 +1,7 @@
+*.CHW
+clarion.opt
+ClarionNet20.red
+#You can and probably should commit .gitignore - but this example shows ignoring it which allows each developer to setup their own
+.gitignore
+*.bak
+*.bak?
