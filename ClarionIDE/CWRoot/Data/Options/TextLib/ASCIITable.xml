@@ -1,4 +1,5 @@
-﻿<TextLibrary name="${res:SharpDevelop.SideBar.AsciiTable}">
+<!--Thank you to Mark Goldberg for reformating this file to be a little more user-friendly than the original shipping version-->
+<TextLibrary name="${res:SharpDevelop.SideBar.AsciiTable}">
     <Test display="13	0D	'CRLF'" value="&lt;13,10&gt;" />
     <Test display="00	00	'Null'" value="&lt;0&gt;" />
     <Test display="07	07	'Bell'" value="&lt;7&gt;" />
