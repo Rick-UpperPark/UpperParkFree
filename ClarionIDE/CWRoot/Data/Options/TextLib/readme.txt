@@ -1,4 +1,7 @@
 These files add to or improve ToolBox pad. 
+
+Remember, you can also drag any snippet of code to the general section of the ToolBox pad for future use.
+
 To use download and copy these files to:
 the Data\Options\TextLib folder beneath your Clarion root folder (eg. C:\Clarion8\Data\Options\TextLib).
 
