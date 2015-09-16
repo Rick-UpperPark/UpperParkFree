@@ -1,108 +1,236 @@
-<!--Thank you to Mark Goldberg for reformating this file to be a little more user-friendly than the original shipping version-->
+﻿<!--
+Thank you to Mark Goldberg for reformating this file to be a little more user-friendly than the original shipping version
+
+
+    2015-09-10:  Extended ASCII table entered by Arnor Baldvinsson at Icetips Alta LLC     
+-->
 <TextLibrary name="${res:SharpDevelop.SideBar.AsciiTable}">
-    <Test display="13	0D	'CRLF'" value="&lt;13,10&gt;" />
-    <Test display="00	00	'Null'" value="&lt;0&gt;" />
-    <Test display="07	07	'Bell'" value="&lt;7&gt;" />
-    <Test display="08	08	'BackSpace'" value="&lt;8&gt;" />
-    <Test display="09	09	'Tab'" value="&lt;9&gt;" />
-    <Test display="10	0A	'LF'" value="&lt;10&gt;" />
-    <Test display="12	0C	'FF'" value="&lt;12&gt;" />
-    <Test display="13	0D	'CR'" value="&lt;13&gt;" />
-    <Test display="26	1A	'EOF'" value="&lt;26&gt;" />
-    <Test display="27	1B	'ESC'" value="&lt;27&gt;" />
-    <Text display="32	20	' '" value=" " />
-    <Text display="33	21	'!'" value="!" />
-    <Text display="34	22	'&quot;'" value="&quot;" />
-    <Text display="35	23	'#'" value="#" />
-    <Text display="36	24	'$'" value="$" />
-    <Text display="37	25	'%'" value="%" />
-    <Text display="38	26	'&amp;'" value="&amp;" />
-    <Text display="39	27	'''" value="'" />
-    <Text display="40	28	'('" value="(" />
-    <Text display="41	29	')'" value=")" />
-    <Text display="42	2A	'*'" value="*" />
-    <Text display="43	2B	'+'" value="+" />
-    <Text display="44	2C	','" value="," />
-    <Text display="45	2D	'-'" value="-" />
-    <Text display="46	2E	'.'" value="." />
-    <Text display="47	2F	'/'" value="/" />
-    <Text display="48	30	'0'" value="0" />
-    <Text display="49	31	'1'" value="1" />
-    <Text display="50	32	'2'" value="2" />
-    <Text display="51	33	'3'" value="3" />
-    <Text display="52	34	'4'" value="4" />
-    <Text display="53	35	'5'" value="5" />
-    <Text display="54	36	'6'" value="6" />
-    <Text display="55	37	'7'" value="7" />
-    <Text display="56	38	'8'" value="8" />
-    <Text display="57	39	'9'" value="9" />
-    <Text display="58	3A	':'" value=":" />
-    <Text display="59	3B	';'" value=";" />
-    <Text display="60	3C	'&lt;'" value="&lt;" />
-    <Text display="61	3D	'='" value="=" />
-    <Text display="62	3E	'&gt;'" value="&gt;" />
-    <Text display="63	3F	'?'" value="?" />
-    <Text display="64	40	'@'" value="@" />
-    <Text display="65	41	'A'" value="A" />
-    <Text display="66	42	'B'" value="B" />
-    <Text display="67	43	'C'" value="C" />
-    <Text display="68	44	'D'" value="D" />
-    <Text display="69	45	'E'" value="E" />
-    <Text display="70	46	'F'" value="F" />
-    <Text display="71	47	'G'" value="G" />
-    <Text display="72	48	'H'" value="H" />
-    <Text display="73	49	'I'" value="I" />
-    <Text display="74	4A	'J'" value="J" />
-    <Text display="75	4B	'K'" value="K" />
-    <Text display="76	4C	'L'" value="L" />
-    <Text display="77	4D	'M'" value="M" />
-    <Text display="78	4E	'N'" value="N" />
-    <Text display="79	4F	'O'" value="O" />
-    <Text display="80	50	'P'" value="P" />
-    <Text display="81	51	'Q'" value="Q" />
-    <Text display="82	52	'R'" value="R" />
-    <Text display="83	53	'S'" value="S" />
-    <Text display="84	54	'T'" value="T" />
-    <Text display="85	55	'U'" value="U" />
-    <Text display="86	56	'V'" value="V" />
-    <Text display="87	57	'W'" value="W" />
-    <Text display="88	58	'X'" value="X" />
-    <Text display="89	59	'Y'" value="Y" />
-    <Text display="90	5A	'Z'" value="Z" />
-    <Text display="91	5B	'['" value="[" />
-    <Text display="92	5C	'\'" value="\" />
-    <Text display="93	5D	']'" value="]" />
-    <Text display="94	5E	'^'" value="^" />
-    <Text display="95	5F	'_'" value="_" />
-    <Text display="96	60	'`'" value="`" />
-    <Text display="97	61	'a'" value="a" />
-    <Text display="98	62	'b'" value="b" />
-    <Text display="99	63	'c'" value="c" />
-    <Text display="100	64	'd'" value="d" />
-    <Text display="101	65	'e'" value="e" />
-    <Text display="102	66	'f'" value="f" />
-    <Text display="103	67	'g'" value="g" />
-    <Text display="104	68	'h'" value="h" />
-    <Text display="105	69	'i'" value="i" />
-    <Text display="106	6A	'j'" value="j" />
-    <Text display="107	6B	'k'" value="k" />
-    <Text display="108	6C	'l'" value="l" />
-    <Text display="109	6D	'm'" value="m" />
-    <Text display="110	6E	'n'" value="n" />
-    <Text display="111	6F	'o'" value="o" />
-    <Text display="112	70	'p'" value="p" />
-    <Text display="113	71	'q'" value="q" />
-    <Text display="114	72	'r'" value="r" />
-    <Text display="115	73	's'" value="s" />
-    <Text display="116	74	't'" value="t" />
-    <Text display="117	75	'u'" value="u" />
-    <Text display="118	76	'v'" value="v" />
-    <Text display="119	77	'w'" value="w" />
-    <Text display="120	78	'x'" value="x" />
-    <Text display="121	79	'y'" value="y" />
-    <Text display="122	7A	'z'" value="z" />
-    <Text display="123	7B	'{'" value="{" />
-    <Text display="124	7C	'|'" value="|" />
-    <Text display="125	7D	'}'" value="}" />
-    <Text display="126	7E	'~'" value="~" />
+	<Test display="13	0D	'CRLF'" value="&lt;13,10&gt;" />
+	<Test display="00	00	'Null'" value="&lt;0&gt;" />
+	<Test display="07	07	'Bell'" value="&lt;7&gt;" />
+	<Test display="08	08	'BackSpace'" value="&lt;8&gt;" />
+	<Test display="09	09	'Tab'" value="&lt;9&gt;" />
+	<Test display="10	0A	'LF'" value="&lt;10&gt;" />
+	<Test display="12	0C	'FF'" value="&lt;12&gt;" />
+	<Test display="13	0D	'CR'" value="&lt;13&gt;" />
+	<Test display="26	1A	'EOF'" value="&lt;26&gt;" />
+	<Test display="27	1B	'ESC'" value="&lt;27&gt;" />
+	<Text display = "32	20	' '" value = " "/>
+	<Text display = "33	21	'!'" value = "!"/>
+	<Text display = "34	22	'&quot;'" value = "&quot;"/>
+	<Text display = "35	23	'#'" value = "#"/>
+	<Text display = "36	24	'$'" value = "$"/>
+	<Text display = "37	25	'%'" value = "%"/>
+	<Text display = "38	26	'&amp;'" value = "&amp;"/>
+	<Text display = "39	27	'''" value = "'"/>
+	<Text display = "40	28	'('" value = "("/>
+	<Text display = "41	29	')'" value = ")"/>
+	<Text display = "42	2A	'*'" value = "*"/>
+	<Text display = "43	2B	'+'" value = "+"/>
+	<Text display = "44	2C	','" value = ","/>
+	<Text display = "45	2D	'-'" value = "-"/>
+	<Text display = "46	2E	'.'" value = "."/>
+	<Text display = "47	2F	'/'" value = "/"/>
+	<Text display = "48	30	'0'" value = "0"/>
+	<Text display = "49	31	'1'" value = "1"/>
+	<Text display = "50	32	'2'" value = "2"/>
+	<Text display = "51	33	'3'" value = "3"/>
+	<Text display = "52	34	'4'" value = "4"/>
+	<Text display = "53	35	'5'" value = "5"/>
+	<Text display = "54	36	'6'" value = "6"/>
+	<Text display = "55	37	'7'" value = "7"/>
+	<Text display = "56	38	'8'" value = "8"/>
+	<Text display = "57	39	'9'" value = "9"/>
+	<Text display = "58	3A	':'" value = ":"/>
+	<Text display = "59	3B	';'" value = ";"/>
+	<Text display = "60	3C	'&lt;'" value = "&lt;"/>
+	<Text display = "61	3D	'='" value = "="/>
+	<Text display = "62	3E	'&gt;'" value = "&gt;"/>
+	<Text display = "63	3F	'?'" value = "?"/>
+	<Text display = "64	40	'@'" value = "@"/>
+	<Text display = "65	41	'A'" value = "A"/>
+	<Text display = "66	42	'B'" value = "B"/>
+	<Text display = "67	43	'C'" value = "C"/>
+	<Text display = "68	44	'D'" value = "D"/>
+	<Text display = "69	45	'E'" value = "E"/>
+	<Text display = "70	46	'F'" value = "F"/>
+	<Text display = "71	47	'G'" value = "G"/>
+	<Text display = "72	48	'H'" value = "H"/>
+	<Text display = "73	49	'I'" value = "I"/>
+	<Text display = "74	4A	'J'" value = "J"/>
+	<Text display = "75	4B	'K'" value = "K"/>
+	<Text display = "76	4C	'L'" value = "L"/>
+	<Text display = "77	4D	'M'" value = "M"/>
+	<Text display = "78	4E	'N'" value = "N"/>
+	<Text display = "79	4F	'O'" value = "O"/>
+	<Text display = "80	50	'P'" value = "P"/>
+	<Text display = "81	51	'Q'" value = "Q"/>
+	<Text display = "82	52	'R'" value = "R"/>
+	<Text display = "83	53	'S'" value = "S"/>
+	<Text display = "84	54	'T'" value = "T"/>
+	<Text display = "85	55	'U'" value = "U"/>
+	<Text display = "86	56	'V'" value = "V"/>
+	<Text display = "87	57	'W'" value = "W"/>
+	<Text display = "88	58	'X'" value = "X"/>
+	<Text display = "89	59	'Y'" value = "Y"/>
+	<Text display = "90	5A	'Z'" value = "Z"/>
+	<Text display = "91	5B	'['" value = "["/>
+	<Text display = "92	5C	'\'" value = "\"/>
+	<Text display = "93	5D	']'" value = "]"/>
+	<Text display = "94	5E	'^'" value = "^"/>
+	<Text display = "95	5F	'_'" value = "_"/>
+	<Text display = "96	60	'`'" value = "`"/>
+	<Text display = "97	61	'a'" value = "a"/>
+	<Text display = "98	62	'b'" value = "b"/>
+	<Text display = "99	63	'c'" value = "c"/>
+	<Text display = "100	64	'd'" value = "d"/>
+	<Text display = "101	65	'e'" value = "e"/>
+	<Text display = "102	66	'f'" value = "f"/>
+	<Text display = "103	67	'g'" value = "g"/>
+	<Text display = "104	68	'h'" value = "h"/>
+	<Text display = "105	69	'i'" value = "i"/>
+	<Text display = "106	6A	'j'" value = "j"/>
+	<Text display = "107	6B	'k'" value = "k"/>
+	<Text display = "108	6C	'l'" value = "l"/>
+	<Text display = "109	6D	'm'" value = "m"/>
+	<Text display = "110	6E	'n'" value = "n"/>
+	<Text display = "111	6F	'o'" value = "o"/>
+	<Text display = "112	70	'p'" value = "p"/>
+	<Text display = "113	71	'q'" value = "q"/>
+	<Text display = "114	72	'r'" value = "r"/>
+	<Text display = "115	73	's'" value = "s"/>
+	<Text display = "116	74	't'" value = "t"/>
+	<Text display = "117	75	'u'" value = "u"/>
+	<Text display = "118	76	'v'" value = "v"/>
+	<Text display = "119	77	'w'" value = "w"/>
+	<Text display = "120	78	'x'" value = "x"/>
+	<Text display = "121	79	'y'" value = "y"/>
+	<Text display = "122	7A	'z'" value = "z"/>
+	<Text display = "123	7B	'{'" value = "{"/>
+	<Text display = "124	7C	'|'" value = "|"/>
+	<Text display = "125	7D	'}'" value = "}"/>
+	<Text display = "126	7E	'~'" value = "~"/>
+	<Text display = "127	7F	''" value = ""/>
+	<Text display = "128	80	'€'" value = "&#128;"/>
+	<Text display = "130	82	'‚'" value = "&#130;"/>
+	<Text display = "131	83	'ƒ'" value = "&#131;"/>
+	<Text display = "132	84	'„'" value = "&#132;"/>
+	<Text display = "133	85	'…'" value = "&#133;"/>
+	<Text display = "134	86	'†'" value = "&#134;"/>
+	<Text display = "135	87	'‡'" value = "&#135;"/>
+	<Text display = "136	88	'ˆ'" value = "&#136;"/>
+	<Text display = "137	89	'‰'" value = "&#137;"/>
+	<Text display = "138	8A	'Š'" value = "&#138;"/>
+	<Text display = "139	8B	'‹'" value = "&#139;"/>
+	<Text display = "140	8C	'Œ'" value = "&#140;"/>
+	<Text display = "142	8E	'Ž'" value = "&#142;"/>
+	<Text display = "145	91	'‘'" value = "&#145;"/>
+	<Text display = "146	92	'’'" value = "&#146;"/>
+	<Text display = "147	93	'“'" value = "&#147;"/>
+	<Text display = "148	94	'”'" value = "&#148;"/>
+	<Text display = "149	95	'•'" value = "&#149;"/>
+	<Text display = "150	96	'–'" value = "&#150;"/>
+	<Text display = "151	97	'—'" value = "&#151;"/>
+	<Text display = "152	98	'˜''" value = "&#152;"/>
+	<Text display = "153	99	'™'" value = "&#153;"/>
+	<Text display = "154	9A	'š'" value = "&#154;"/>
+	<Text display = "155	9B	'›'" value = "&#155;"/>
+	<Text display = "156	9C	'œ'" value = "&#156;"/>
+	<Text display = "158	9E	'ž'" value = "&#158;"/>
+	<Text display = "159	9F	'Ÿ'" value = "&#159;"/>
+	<Text display = "161	A1	'¡'" value = "&#161;"/>
+	<Text display = "162	A2	'¢'" value = "&#162;"/>
+	<Text display = "163	A3	'£'" value = "&#163;"/>
+	<Text display = "164	A4	'¤'" value = "&#164;"/>
+	<Text display = "165	A5	'¥'" value = "&#165;"/>
+	<Text display = "166	A6	'¦'" value = "&#166;"/>
+	<Text display = "167	A7	'§'" value = "&#167;"/>
+	<Text display = "168	A8	'¨'" value = "&#168;"/>
+	<Text display = "169	A9	'©'" value = "&#169;"/>
+	<Text display = "170	AA	'ª'" value = "&#170;"/>
+	<Text display = "171	AB	'«'" value = "&#171;"/>
+	<Text display = "172	AC	'¬'" value = "&#172;"/>
+	<Text display = "173	AD	'­'" value = "&#173;"/>
+	<Text display = "174	AE	'®'" value = "&#174;"/>
+	<Text display = "175	AF	'¯'" value = "&#175;"/>
+	<Text display = "176	B0	'°'" value = "&#176;"/>
+	<Text display = "177	B1	'±'" value = "&#177;"/>
+	<Text display = "178	B2	'²'" value = "&#178;"/>
+	<Text display = "179	B3	'³'" value = "&#179;"/>
+	<Text display = "180	B4	'´'" value = "&#180;"/>
+	<Text display = "181	B5	'µ'" value = "&#181;"/>
+	<Text display = "182	B6	'¶'" value = "&#182;"/>
+	<Text display = "183	B7	'·'" value = "&#183;"/>
+	<Text display = "184	B8	'¸'" value = "&#184;"/>
+	<Text display = "185	B9	'¹'" value = "&#185;"/>
+	<Text display = "186	BA	'º'" value = "&#186;"/>
+	<Text display = "187	BB	'»'" value = "&#187;"/>
+	<Text display = "188	BC	'¼'" value = "&#188;"/>
+	<Text display = "189	BD	'½'" value = "&#189;"/>
+	<Text display = "190	BE	'¾'" value = "&#190;"/>
+	<Text display = "191	BF	'¿'" value = "&#191;"/>
+	<Text display = "192	C0	'À'" value = "&#192;"/>
+	<Text display = "193	C1	'Á'" value = "&#193;"/>
+	<Text display = "194	C2	'Â'" value = "&#194;"/>
+	<Text display = "195	C3	'Ã'" value = "&#195;"/>
+	<Text display = "196	C4	'Ä'" value = "&#196;"/>
+	<Text display = "197	C5	'Å'" value = "&#197;"/>
+	<Text display = "198	C6	'Æ'" value = "&#198;"/>
+	<Text display = "199	C7	'Ç'" value = "&#199;"/>
+	<Text display = "200	C8	'È'" value = "&#200;"/>
+	<Text display = "201	C9	'É'" value = "&#201;"/>
+	<Text display = "202	CA	'Ê'" value = "&#202;"/>
+	<Text display = "203	CB	'Ë'" value = "&#203;"/>
+	<Text display = "204	CC	'Ì'" value = "&#204;"/>
+	<Text display = "205	CD	'Í'" value = "&#205;"/>
+	<Text display = "206	CE	'Î'" value = "&#206;"/>
+	<Text display = "207	CF	'Ï'" value = "&#207;"/>
+	<Text display = "208	D0	'Ð'" value = "&#208;"/>
+	<Text display = "209	D1	'Ñ'" value = "&#209;"/>
+	<Text display = "210	D2	'Ò'" value = "&#210;"/>
+	<Text display = "211	D3	'Ó'" value = "&#211;"/>
+	<Text display = "212	D4	'Ô'" value = "&#212;"/>
+	<Text display = "213	D5	'Õ'" value = "&#213;"/>
+	<Text display = "214	D6	'Ö'" value = "&#214;"/>
+	<Text display = "215	D7	'×'" value = "&#215;"/>
+	<Text display = "216	D8	'Ø'" value = "&#216;"/>
+	<Text display = "217	D9	'Ù'" value = "&#217;"/>
+	<Text display = "218	DA	'Ú'" value = "&#218;"/>
+	<Text display = "219	DB	'Û'" value = "&#219;"/>
+	<Text display = "220	DC	'Ü'" value = "&#220;"/>
+	<Text display = "221	DD	'Ý'" value = "&#221;"/>
+	<Text display = "222	DE	'Þ'" value = "&#222;"/>
+	<Text display = "223	DF	'ß'" value = "&#223;"/>
+	<Text display = "224	E0	'à'" value = "&#224;"/>
+	<Text display = "225	E1	'á'" value = "&#225;"/>
+	<Text display = "226	E2	'â'" value = "&#226;"/>
+	<Text display = "227	E3	'ã'" value = "&#227;"/>
+	<Text display = "228	E4	'ä'" value = "&#228;"/>
+	<Text display = "229	E5	'å'" value = "&#229;"/>
+	<Text display = "230	E6	'æ'" value = "&#230;"/>
+	<Text display = "231	E7	'ç'" value = "&#231;"/>
+	<Text display = "232	E8	'è'" value = "&#232;"/>
+	<Text display = "233	E9	'é'" value = "&#233;"/>
+	<Text display = "234	EA	'ê'" value = "&#234;"/>
+	<Text display = "235	EB	'ë'" value = "&#235;"/>
+	<Text display = "236	EC	'ì'" value = "&#236;"/>
+	<Text display = "237	ED	'í'" value = "&#237;"/>
+	<Text display = "238	EE	'î'" value = "&#238;"/>
+	<Text display = "239	EF	'ï'" value = "&#239;"/>
+	<Text display = "240	F0	'ð'" value = "&#240;"/>
+	<Text display = "241	F1	'ñ'" value = "&#241;"/>
+	<Text display = "242	F2	'ò'" value = "&#242;"/>
+	<Text display = "243	F3	'ó'" value = "&#243;"/>
+	<Text display = "244	F4	'ô'" value = "&#244;"/>
+	<Text display = "245	F5	'õ'" value = "&#245;"/>
+	<Text display = "246	F6	'ö'" value = "&#246;"/>
+	<Text display = "247	F7	'÷'" value = "&#247;"/>
+	<Text display = "248	F8	'ø'" value = "&#248;"/>
+	<Text display = "249	F9	'ù'" value = "&#249;"/>
+	<Text display = "250	FA	'ú'" value = "&#250;"/>
+	<Text display = "251	FB	'û'" value = "&#251;"/>
+	<Text display = "252	FC	'ü'" value = "&#252;"/>
+	<Text display = "253	FD	'ý'" value = "&#253;"/>
+	<Text display = "254	FE	'þ'" value = "&#254;"/>
+	<Text display = "255	FF	'ÿ'" value = "&#255;"/>
 </TextLibrary>
