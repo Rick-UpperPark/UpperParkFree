@@ -1,0 +1,18 @@
+#EXTENSION(UP_BrowseColumnEquates,'Generate Browse Column Number equates'),PROCEDURE,MULTI,REQ(BrowseBox(ABC),AFTER)
+  #DISPLAY('Template to generate equates for each column ')
+  #DISPLAY('in a ABC browse list control.') 
+  #DISPLAY('These equates can be used instead of hard-coded ')
+  #DISPLAY('numeric constants in code where you need the column number.') 
+  #DISPLAY('The equate automatically generates the correct value')
+  #DISPLAY('if the order of the columns change or new columns are added.') 
+#AT(%DataSection)
+! Declare Equates for column numbers and field numbers
+  ITEMIZE(1),PRE(%ManagerName:FieldNo)
+  #FIX(%Control,%ListControl)
+  #FOR(%ControlField)
+    #SET(%ValueConstruct,%ControlField)
+    #INSERT(%CleanDimensions(ABC))
+%[30]ValueConstruct EQUATE()
+  #ENDFOR
+  End
+#ENDAT

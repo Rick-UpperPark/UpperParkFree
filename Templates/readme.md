@@ -15,3 +15,8 @@ VERSION_RESOURCE_VER        EQUATE('2017,2,1')
 VERSION_VALUE_RESOURCE_VER  EQUATE('2017.2.1')
 
 UP_FileVersion.tpl - Enhanced version of Softvelocity template to create file version resource from .Ver file
+
+
+UP_BrowseHelper.tpw - example template to generate equates for each column in a ABC browse list control. 
+			These equates can be used instead of hard coded numeric constants in code where you need the column number.
+			The equate automatically generates the correct value if the order of the columns change or new columns are added.
